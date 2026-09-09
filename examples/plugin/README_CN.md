@@ -25,6 +25,7 @@
 - `host-callback/`：使用最小插件资源演示宿主回调。
 - `host-callback-auth-files/`：仅 Go 实现的插件资源，演示 host 凭证文件回调。
 - `host-model-callback/`：仅 Go 实现的插件资源，演示调用宿主模型执行回调。
+- `openai-anthropic-messages/`：可配置的 OpenAI 模型目录与可选前缀，统一经上游 Anthropic Messages `/v1/messages` 端点路由（base_api 自动补 `/v1`，与 cc-switch 路由方式一致）。详见 `openai-anthropic-messages/README.md`。
 
 多数标准能力示例都包含 `go/`、`c/` 和 `rust/` 三个子目录。专用示例可能只提供所需的实现语言。
 

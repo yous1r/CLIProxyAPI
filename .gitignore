@@ -55,6 +55,8 @@ _bmad/*
 _bmad-output/*
 .gocache/
 .gitnexus/
+.tmp-go-cache/
+.tmp-go-mod/
 
 # macOS
 .DS_Store
